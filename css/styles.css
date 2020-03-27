@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Acme', sans-serif;
+  font-size: 60px;
+  color: #084177;
+}
+
+h2 {
+  font-family: 'Acme', sans-serif;
+  font-size: 35px;
+  color: #084177;
+  margin:auto;
+  padding:40px;
+}
+
+h3 {
+  font-family: 'Acme', sans-serif;
+  font-size: 35px;
+  color:  #11999E;
+}
+
+.hakuna {
+  margin-bottom: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  line-height: 2;
+}
+a{
+  color: #084177;
+  font-family: 'Cinzel', serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+color: blue;
+}
+.top {
+  padding-top: 100px;
+  background-color: #cae8d5;
+
+}
+
+.middle-container{}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.profpic{
+  height: 200px;
+  width: 175px;
+  border-radius: 30%;
+  margin-top: 40px;
+
+}
+.computer{
+  height:200px;
+  width :200px ;
+  border-radius: 25%;
+  border-style: solid 20px;
+  border-color: blue;
+  float: right;
+  margin-left: 30px;
+
+}
+.iot{
+  height:200px;
+  width :200px ;
+  border-radius: 25%;
+  border-style: solid 10px;
+  border-color: blue;
+  float: left;
+  margin-right: 30px;
+
+}
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  top: 150;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 150px;
+  top: 200px;
+}
+.skill-row{
+  width: 75%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 200%;
+}
+hr{
+  background-color: white;
+  border-style:dotted none none;
+  border-color: #d1cebd;
+  border-width: 15px;
+  width:10%;
+}
+.intro{
+  width:40%;
+  margin:auto;
+  padding:50px;
+  letter-spacing: 1px;
+}
+  .button {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#aee 0%,#8cc 49%,#599 51%,#8cc 100%);
+  border-radius: 5px;
+  border: 1px solid #6aa;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #fff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  text-decoration: none;
+
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button > .ld {
+    font-size: initial
+  }
